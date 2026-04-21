@@ -1,4 +1,11 @@
+
+---
+layout: default
+title: Ukubona
+---
+
 <!-- Paste in <head> -->
+{% raw %}
 <script>
   window.MathJax = {
     tex: {
@@ -12,6 +19,8 @@
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
+{% endraw %}
+
 
 <!-- Usage inline: $E = mc^2$ -->
 <!-- Usage block:  $$\int_0^\infty e^{-x} dx = 1$$ -->
